@@ -1,0 +1,90 @@
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	padding: 4rem 2rem;
+	font-size: 15px;
+	font-family: 'Lexend Deca', sans-serif;
+	color: white;
+	background: white;
+}
+
+main {
+	display: grid;
+	grid-auto-flow: row;
+	border-radius: 1rem;
+	overflow: hidden;
+}
+
+div {
+	min-height: calc(100% - 5rem);
+	max-width: 375px;
+	margin: auto;
+	display: inline-flex;
+	flex-direction: column;
+	align-items: stretch;
+	flex-wrap: wrap;
+	gap: 2rem;
+	padding: 2.5rem;
+}
+
+img {
+	width: max-content;
+}
+
+h2 {
+	font-size: 2.5rem;
+	font-family: 'Big Shoulders Display', cursive;
+	text-transform: uppercase;
+}
+
+p {
+	color: hsl(0, 0%, 95%);
+	line-height: 2rem;
+	flex-grow: 1;
+}
+
+button {
+	all: unset;
+	width: max-content;
+	padding: 1rem 2rem;
+	border: 2px solid white;
+	border-radius: 5rem;
+	color: black;
+	mix-blend-mode: screen;
+	position: relative;
+	transition: all 0.3s ease-in-out;
+}
+
+button::before {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: white;
+	border-radius: 5rem;
+	content: '';
+	mix-blend-mode: color-burn;
+	transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+	border: 2px solid white;
+	color: white;
+	cursor: pointer;
+}
+
+button:hover::before {
+	background: unset;
+}
+
+@media (min-width: 768px) {
+	main {
+		grid-auto-flow: column;
+	}
+	div {
+		max-width: 210px;
+	}
+}
