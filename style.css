@@ -90,4 +90,7 @@ button:hover::before {
 	div {
 		max-width: 210px;
 	}
+	button {
+		margin-top: 4rem;
+	}
 }
