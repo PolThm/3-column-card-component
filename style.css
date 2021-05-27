@@ -81,6 +81,9 @@ button:hover::before {
 }
 
 @media (min-width: 768px) {
+	body {
+		min-height: calc(100vh - 8rem);
+	}
 	main {
 		grid-auto-flow: column;
 	}
