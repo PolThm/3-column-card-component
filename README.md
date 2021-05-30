@@ -32,8 +32,7 @@ Users should be able to:
 
 ## My process
 
-I've first started by the HTML then the CSS (I've added a "reset.css" file first to work with a clean css)
-
+I first started with HTML then CSS (I first added a "reset.css" file to work with a clean css)
 ### Built with
 
 - HTML
