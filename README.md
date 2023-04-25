@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [https://3-columns-card-component.pol-thomas.com](https://3-columns-card-component.pol-thomas.com/)
+- Live Site URL: [https://polthm.github.io/3-columns-card-component/](https://polthm.github.io/3-columns-card-component/)
 
 ## My process
 
